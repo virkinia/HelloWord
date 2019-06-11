@@ -6,27 +6,38 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#000"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:weightSum="3"
+    >
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:text="Hello World!"
         android:textColor="#FFF"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
         android:textSize="40sp"/>
 
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:text="Hello World!"
         android:textColor="#FFF"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
         android:textSize="40sp" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:text="Hello World!"
         android:textColor="#FFF"
+        android:background="@color/colorAccent"
+        android:gravity="center"
         android:textSize="40sp" />
 </LinearLayout>
